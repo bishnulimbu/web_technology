@@ -1,6 +1,0 @@
-inside body contains header, main and footer.
-target"_main" to open link in new tab
-<pre> for exact text.
-article, section and aside.
-
-  
