@@ -1,0 +1,17 @@
+body{
+  background: url(image.gif) no-repeat right ;
+}
+div{
+  margin-top: 30px;
+  border-left: 30px solid cyan;
+}
+.aim1{
+    border-left: 10px solid red;
+    margin: inherit;
+}
+div.aim2{
+  border-radius: 20px;
+}
+div.aim3{
+  margin-left: inherit;
+}
