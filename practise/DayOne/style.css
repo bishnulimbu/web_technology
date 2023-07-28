@@ -1,0 +1,13 @@
+.nav2{
+ display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 10px;
+        background-color: #fff;
+        padding: 20px;
+        padding-left: 40px;
+        padding-right: 40px;
+        margin-right: auto;
+        margin-left: auto;
+}
+
+   
