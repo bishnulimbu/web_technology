@@ -11,7 +11,7 @@ span{
 
 .main-container{
     background-color: var(--bg-color);
-    height: 100vh;
+    height: max-content;
     width: 100%;
 }
 
@@ -95,4 +95,41 @@ footer ul li a, footer ul li{
 footer ul li a:hover{
     color: var(--hightlightcolor);
     transition: all .3s ease;
+
+}
+.center-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url(https://thumbs.dreamstime.com/z/cinema-background-movie-time-banner-retro-camera-abstract-advertising-poster-cinema-theatre-website-vector-115909364.jpg);
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+form{
+  padding: 2rem;
+  border-radius: 30px;
+  height: 200px;
+  background-color: white;
+  text-align: center;
+
+}
+form botton{
+  text-align: center;
+}
+form label{
+  margin: .5rem 0;
+  
+}
+.video-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  
+}
+.movie{
+  height: 400px;
+  width: 200px;
+
 }
