@@ -1,5 +1,6 @@
 :root{
     --hightlightcolor:#ED2B2A;
+    --bg-color:#272829; 
 }  
 * , ::after, ::before{
     margin: 0;
