@@ -76,4 +76,12 @@ span{
 .thriller{
     display: flex;
 }
-
+.romance{
+    display: flex;
+}
+.movie1{
+  background:url(picture/rango.jpg) center no-repeat;
+  background-size: cover;
+    height: 300px;
+    width: 200px;
+}
