@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('./reset.css');
+
+body {
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 2.5px;
+}
+span{
+    color:var(--hightlightcolor ) ;
+}
+
+.main-container{
+    background-color: #fff;
+    height: max-content;
+    width: 100%;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5%;
+    align-items: center;
+    height: 50px;
+    position:sticky;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    background-color: grey;
+
+}
+
+.nav-container ul {
+    display: flex;
+}
+
+.nav-items {
+    padding: 0 1rem;
+}
+
+.nav-links {
+    color: black;
+    transition: all .5s ease;
+}
+.nav-links:hover{
+    color: orangered;
+}
+.cta {
+    background-color: orangered;
+    color: white;
+    padding: .5rem 1.2rem;
+    transition: all .4s ease;
+    border-radius: 4px;
+}
+.cta:hover{
+    background-color: orange;
+}
+
+.video-container{
+    padding-top: 2rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.movie{
+    height: 300px;
+    width: 200px;
+    padding-top: 2rem;
+}
+
+.cartoon{
+    display: flex;
+}
+
+.thriller{
+    display: flex;
+}
+
