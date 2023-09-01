@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Studentroot>
+
+
+  <Student>
+    <name>Rame</name>
+    <age>12</age>
+    <roll>10</roll>
+
+  </Student>
+
+  <Student>
+    <name>Nambe</name>
+    <age>8</age>
+    <roll>1</roll>
+
+  </Student>
+
+</Studentroot>
+
