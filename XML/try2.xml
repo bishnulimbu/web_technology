@@ -2,12 +2,12 @@
 <!-- this is a comment -->
 
 <Grandfather>
-  <father catagory="1st wife">
-    <child1>
+  <father category="1st wife">
+    <child_1>
       <name>Ram</name>
       <age>15</age>
       <mother>Sita</mother>
-    </child1>
+    </child_1>
   </father>
 
 

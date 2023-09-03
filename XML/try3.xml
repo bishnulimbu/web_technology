@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<college_Namuna>
+  <student>
+    <student_1>
+      <student_Name>
+      <firstName>Pujan</firstName>
+      <lastName>Thapa</lastName>
+      </student_Name>
+      <major>Arts</major>
+      <personalInfo>
+      <contact>98XXXXXXXX</contact>
+      <email>pujanthapa69@gmail.com</email>
+      <address>
+        <address_1>biratchowk</address_1>
+      </address>
+      <address>
+        <address_2>khorsane</address_2>
+      </address>
+      <address>
+        <address_3>bhaunu</address_3>
+      </address>
+      </personalInfo>
+    </student_1>
+    <student_2>
+      <student_Name>
+      <firstName>Rakesh</firstName>
+      <lastName>Thapa</lastName>
+    </student_Name>
+      <major>Graphics Designing</major>
+      <personalInfo>
+      <contact>9000XXXXX</contact>
+      <email>pujanthapa69@gmail.com</email>
+      <address>
+        <address_1>biratchowk</address_1>
+      </address>
+      <address>
+        <address_2>khorsane</address_2>
+      </address>
+      <address>
+        <address_3>bhaunu</address_3>
+      </address>
+      </personalInfo>
+    </student_2>
+
+
+  </student>
+
+
+
+
+
+</college_Namuna>
