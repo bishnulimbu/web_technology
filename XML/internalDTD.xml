@@ -1,1 +1,19 @@
 <?xml version="1.0" ?>
+<!DOCTYPE studentharu [
+  <!ELEMENT studentharu (student+)>
+  <!ELEMENT student (name, address, phone)>
+  <!ELEMENT name (#PCDATA)> 
+  <!ELEMENT address (#PCDATA)> 
+  <!ELEMENT phone (#PCDATA)> 
+]>
+<studentharu>
+  <student>
+    <name>Rajesh Hamal</name>
+    <address>Pokhara</address>
+    <phone>
+
+
+
+
+</student>
+<studentharu>
