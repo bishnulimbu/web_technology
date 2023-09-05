@@ -1,0 +1,12 @@
+.firstbox{
+  border: 10rem solid #00bfff;
+  padding: 2rem;
+}
+input[type=text],input[type=password]{
+  margin: auto;
+  display: inline-block;
+}
+.loginbox{
+  padding: 2rem;
+}
+
