@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Customer>
+  <customer_1>
+    <Name>Pujan Magaar</Name>
+    <contact>98XXXXXXXX</contact>
+    <email>pujanthapa69@gmail.com</email>
+    <address>biratchowk</address>
+  </customer_1>
+  <customer_2>
+    <Name>Sita Devi</Name>
+    <contact>98YYYYYYYY</contact>
+    <email>sita.devi@example.com</email>
+    <address>Kathmandu</address>
+  </customer_2>
+  <customer_3>
+    <Name>Ram Kumar</Name>
+    <contact>98ZZZZZZZZ</contact>
+    <email>ram.kumar@example.com</email>
+    <address>Pokhara</address>
+  </customer_3>
+  <customer_4>
+    <Name>Gita Sharma</Name>
+    <contact>98WWWWWWWW</contact>
+    <email>gita.sharma@example.com</email>
+    <address>Butwal</address>
+  </customer_4>
+  <customer_5>
+    <Name>Hari Prasad</Name>
+    <contact>98VVVVVVVV</contact>
+    <email>hari.prasad@example.com</email>
+    <address>Biratnagar</address>
+  </customer_5>
+</Customer>

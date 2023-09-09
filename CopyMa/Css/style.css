@@ -1,0 +1,15 @@
+
+/* styles.css */
+body {
+  background-color: lightcyan;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: red;
+}
+
+p {
+  font-size: 15px;
+  color: blue;
+}
