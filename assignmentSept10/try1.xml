@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TVSCHEDULE [
+  <!ELEMENT TVSCHEDULES (channel+)>
+  <!ELEMENT channel (banner, day+)>
+  <!ELEMENT banner (#PCDATA)>
+  <!ELEMENT day ()>
+]
