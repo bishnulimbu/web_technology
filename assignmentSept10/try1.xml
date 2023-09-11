@@ -18,3 +18,30 @@ rating CDATA #implied
 language CDATA #implied
 >
 ]>
+
+<TVSCHEDULE name="1st schedule">
+  <channel chan="channel_1">
+    <banner>Banner_1</banner>
+    <day_1>
+      <date>2023-09-11</date>
+      <holiday>chrimash</holiday>
+      <programslot var="123">
+        <time>07:16</time>
+        <titile rating="pg13" language="english">title_1</titile>
+        <description>Programslot for who knows how long</description>
+      </programslot>
+    </day_1>
+  </channel>
+  <channel chan="channel_2">
+    <banner>Banner_2</banner>
+    <day_1>
+      <date>2023-09-11</date>
+      <holiday>chrimash</holiday>
+      <programslot var="456">
+        <time>07:16</time>
+        <titile rating="pg18" language="nepali">title_1</titile>
+        <description>Programslot for who knows how long</description>
+      </programslot>
+    </day_1>
+  </channel>
+</TVSCHEDULE>
