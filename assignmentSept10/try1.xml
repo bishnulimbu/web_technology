@@ -27,7 +27,7 @@ language CDATA #implied
       <holiday>chrimash</holiday>
       <programslot var="123">
         <time>07:16</time>
-        <titile rating="pg13" language="english">title_1</titile>
+        <title rating="pg13" language="english">title_1</title>
         <description>Programslot for who knows how long</description>
       </programslot>
     </day_1>
@@ -39,7 +39,7 @@ language CDATA #implied
       <holiday>chrimash</holiday>
       <programslot var="456">
         <time>07:16</time>
-        <titile rating="pg18" language="nepali">title_1</titile>
+        <title rating="pg18" language="nepali">title_1</title>
         <description>Programslot for who knows how long</description>
       </programslot>
     </day_1>
