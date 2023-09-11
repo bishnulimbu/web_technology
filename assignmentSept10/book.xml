@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE Books [
+<!ELEMENT Books (book+)>
+<!ELEMENT book ((title)?, (isbn)+, (zipcode | author), (publish)*)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT isbn (#PCDATA)>
+<!ELEMENT zipcode (#PCDATA)>
+<!ELEMENT publish (#PCDATA)>
+<!ATTLIST zipcode zname CDATA "232232323">
+<!ATTLIST publish year CDATA "1995">
+<!ATTLIST title name CDATA #IMPLIED>
+<!ATTLIST isbn no. CDATA #REQUIRED>
+]>
