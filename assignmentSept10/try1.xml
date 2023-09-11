@@ -24,24 +24,24 @@ language CDATA #implied
     <banner>Banner_1</banner>
     <day_1>
       <date>2023-09-11</date>
-      <holiday>chrimash</holiday>
-      <programslot var="123">
+      <holiday>Christmas</holiday>
+      <programslot vtr="123">
         <time>07:16</time>
-        <title rating="pg13" language="english">title_1</title>
+        <title rating="PG-13" language="english">title_1</title>
         <description>Programslot for who knows how long</description>
       </programslot>
     </day_1>
   </channel>
   <channel chan="channel_2">
     <banner>Banner_2</banner>
-    <day_1>
+    <day_>
       <date>2023-09-11</date>
-      <holiday>chrimash</holiday>
-      <programslot var="456">
+      <holiday>Christmas</holiday>
+      <programslot vtr="456">
         <time>07:16</time>
-        <title rating="pg18" language="nepali">title_1</title>
+        <title rating="PG-18" language="nepali">title_1</title>
         <description>Programslot for who knows how long</description>
       </programslot>
-    </day_1>
+    </day_2>
   </channel>
 </TVSCHEDULE>
