@@ -5,9 +5,23 @@
 <!ELEMENT title (#PCDATA)>
 <!ELEMENT isbn (#PCDATA)>
 <!ELEMENT zipcode (#PCDATA)>
+<!ELEMENT author (#PCDATA)>
 <!ELEMENT publish (#PCDATA)>
 <!ATTLIST zipcode zname CDATA "232232323">
 <!ATTLIST publish year CDATA "1995">
 <!ATTLIST title name CDATA #IMPLIED>
 <!ATTLIST isbn no. CDATA #REQUIRED>
 ]>
+
+<Books>
+  <book>
+    <title name="Frankenstien">Frankenstien</title>
+    <isbn no.="123">123</isbn>
+    <author>Ram</author>
+    <publish>1995</publish>
+  </book>
+
+
+
+
+</Books>
