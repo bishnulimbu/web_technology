@@ -1,7 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <!DOCTYPE TVSCHEDULE [
-  <!ELEMENT TVSCHEDULES (channel+)>
+  <!ELEMENT TVSCHEDULE (channel+)>
   <!ELEMENT channel (banner, day+)>
   <!ELEMENT banner (#PCDATA)>
-  <!ELEMENT day ()>
-]
+  <!ELEMENT day (date, (holiday|programslot)+)>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT holiday (#PCDATA)>
+  <!ELEMENT programslot (time, title, description?)>
+  <!ELEMENT time (#PCDATA)>
+  <!ELEMENT title (#PCDATA)>
+  <!ELEMENT description (#PCDATA)>
+<!ATTLIST TVSCHEDULE name CDATA #REQUIRED>
+<!ATTLIST channel chan CDATA #REQUIRED>
+<!ATTLIST programslot vtr CDATA #IMPLIED>
+<!ATTLIST title 
+rating CDATA #implied
+language CDATA #implied
+>
+]>
