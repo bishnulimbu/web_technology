@@ -1,0 +1,42 @@
+
+<bank xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="./schema.xsd">
+
+  <customer>
+    <customerId>C1</customerId>
+    <name>Alice</name>
+    <address>123 Main St</address>
+  </customer>
+
+  <customer>
+    <customerId>C2</customerId>
+    <name>Bob</name>
+    <address>456 Elm St</address>
+  </customer>
+
+  <account>
+    <accountId>A1</accountId>
+    <branchId>B1</branchId>
+    <customerId>C1</customerId>
+    <accountType>Savings</accountType>
+    <balance>5000.00</balance>
+  </account>
+
+  <account>
+    <accountId>A2</accountId>
+    <branchId>B2</branchId>
+    <customerId>C2</customerId>
+    <accountType>Checking</accountType>
+    <balance>2500.00</balance>
+  </account>
+
+  <employee>
+    <empId>E1</empId>
+    <name>John</name>
+    <designation>Manager</designation>
+    <DOJ>2023-01-15</DOJ>
+    <salary>60000.00</salary>
+    <address>789 Oak St</address>
+  </employee>
+
+</bank>
