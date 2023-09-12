@@ -1,0 +1,46 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <!-- Define complex types for bank, customer, account, and employee -->
+  <xs:complexType name="customerType">
+    <xs:sequence>
+      <xs:element name="customerId" type="xs:string"/>
+      <xs:element name="name" type="xs:string"/>
+      <xs:element name="address" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="accountType">
+    <xs:sequence>
+      <xs:element name="accountId" type="xs:string"/>
+      <xs:element name="branchId" type="xs:string"/>
+      <xs:element name="customerId" type="xs:string"/>
+      <xs:element name="accountType" type="xs:string"/>
+      <xs:element name="balance" type="xs:decimal"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="employeeType">
+    <xs:sequence>
+      <xs:element name="empId" type="xs:string"/>
+      <xs:element name="name" type="xs:string"/>
+      <xs:element name="designation" type="xs:string"/>
+      <xs:element name="DOJ" type="xs:date"/>
+     <xs:element name="salary" type="xs:decimal"/>
+      <xs:element name="address" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- Define elements for bank, customer, account, and employee -->
+  <xs:element name="bank">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="customer" type="customerType" minOccurs="1" maxOccurs="unbounded"/>
+        <xs:element name="account" type="accountType" minOccurs="1" maxOccurs="unbounded"/>
+        <xs:element name="employee" type="employeeType" minOccurs="1" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>
