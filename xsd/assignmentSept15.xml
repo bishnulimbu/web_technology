@@ -19,7 +19,15 @@ elementFormDefault="qualified">
               </xs:simpleType>
             </xs:element>
             <xs:element name="Salary" type="xs:int"></xs:element>
-            <xs:element name="Gender" type="xs:string"></xs:element>
+            <xs:element name="Gender">
+              <xs:simpleType>
+                <xs:restriction base="xs:string">
+                  <xs:enumeration value="Male"></xs:enumeration>
+                  <xs:enumeration value="Female"></xs:enumeration>
+                  <xs:enumeration value="Others"></xs:enumeration>
+                </xs:restriction>
+              </xs:simpleType>
+            </xs:element>
             <xs:element name="Username">
               <xs:simpleType>
                 <xs:restriction base="xs:string">
