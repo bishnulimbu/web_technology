@@ -18,13 +18,17 @@ elementFormDefault="qualified">
                 </xs:restriction>
               </xs:simpleType>
             </xs:element>
-            <xs:element name="Salary" type="xs:int"></xs:element>
+            <xs:element name="Salary">
+              <xs:simpleType>
+                <xs:restriction base="xs:int">
+                <xs:pattern value="[25000-50000]"></xs:pattern>
+                </xs:restriction>
+              </xs:simpleType>
+            </xs:element>
             <xs:element name="Gender">
               <xs:simpleType>
                 <xs:restriction base="xs:string">
-                  <xs:enumeration value="Male"></xs:enumeration>
-                  <xs:enumeration value="Female"></xs:enumeration>
-                  <xs:enumeration value="Others"></xs:enumeration>
+                  <xs:pattern value="Male | Female | Others"/>
                 </xs:restriction>
               </xs:simpleType>
             </xs:element>
