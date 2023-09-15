@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+targetNamespace="https://www.w3schools.com"
+xmlns="https://www.w3schools.com"
+elementFormDefault="qualified">
+
+<xs:element name="TU">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element name="Employee">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="Post" type="xs:string"></xs:element>
+            <xs:element name="Salary" type="xs:int"></xs:element>
+            <xs:element name="Gender" type="xs:string"></xs:element>
+            <xs:element name="Username">
+              <xs:simpleType>
+                <xs:restriction base="xs:string">
+                  <xs:maxLength value="8"></xs:maxLength>
+                </xs:restriction>
+              </xs:simpleType>
+            </xs:element>
+            <xs:element name="Password" type="xs:string"></xs:element>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+ 
+
+
+
+
+  </xs:complexType>
+
+
+
+
+
+
+</xs:element>
+</xs:schema>
