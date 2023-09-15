@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
-targetNamespace="https://www.w3schools.com"
-xmlns="https://www.w3schools.com"
-elementFormDefault="qualified">
+  targetNamespace="https://www.w3schools.com"
+  xmlns="https://www.w3schools.com"
+  elementFormDefault="qualified">
 
 <xs:element name="TU">
   <xs:complexType>
@@ -21,7 +21,7 @@ elementFormDefault="qualified">
             <xs:element name="Salary">
               <xs:simpleType>
                 <xs:restriction base="xs:int">
-                <xs:pattern value="[25000-50000]"></xs:pattern>
+                  <xs:pattern value="[25000-50000]"></xs:pattern>
                 </xs:restriction>
               </xs:simpleType>
             </xs:element>
@@ -51,17 +51,6 @@ elementFormDefault="qualified">
         </xs:complexType>
       </xs:element>
     </xs:sequence>
- 
-
-
-
-
   </xs:complexType>
-
-
-
-
-
-
 </xs:element>
 </xs:schema>
