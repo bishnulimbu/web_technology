@@ -4,7 +4,12 @@
   height: 100vh;
   align-items: center;
   width: 100%;
+  background-color: white;
 
+
+}
+.container{
+  background-color: blue;
 }
 .input-container{
   padding: 2rem;
