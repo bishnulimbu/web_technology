@@ -1,20 +1,85 @@
-.main-container{
-  display: flex;
-  justify-content: center;
-  height: 100vh;
-  align-items: center;
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+body, html{
   width: 100%;
-  background-color: white;
-
-
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font: 16px;
+}
+.main-container{
+  background:blue;
+  width: 50%;
+  height: 50%;
+  border: none;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .container{
-  background-color: blue;
+  width: 50%;
+  height: 50%;
+  background:white;
+  border: none;
+  border-radius: 10px;
 }
-.input-container{
-  padding: 2rem;
-  border-radius: 30px;
-  height: 20px;
-  background-color: white;
+h1{
   text-align: center;
+  font-size:2rem;
+  margin-bottom:5px;
+}
+
+form{
+  position: relative;
+}
+
+form{
+  text-align: center;
+}
+
+p{
+  font-size:0.8rem;
+  margin-top: 3px;
+}
+
+a{
+  margin-left: 2px;
+  font-size: 0.8rem;
+}
+
+.field{
+  text-align: center;
+  border: none;
+  background-color: rgb(223, 216, 216);
+  padding: 2px;
+  border-radius: 10px;
+}
+.button{
+  border: none;
+  background: #4e4c4c;
+  color: white;
+  padding: 3px;
+  border-radius: 5px;
+  font: 0.8rem;
+}
+
+.button:hover{
+  background-color: white;
+  color: #4e4c4c;
+}
+
+.field:hover{
+  padding: 5px;
+}
+a:hover{
+  color: red;
 }
