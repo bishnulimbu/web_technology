@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="./apple.xsl" type="text/xsl"?>
-<product>
+<products>
+  <product>
   <product_name>Apple</product_name>
   <category>Fruit</category>
   <price>10</price>
@@ -30,3 +31,4 @@
   <price>9</price>
   <quantity>90</quantity>
 </product>
+</products>
