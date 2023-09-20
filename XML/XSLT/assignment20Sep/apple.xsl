@@ -1,6 +1,5 @@
-<xsl:stylesheet version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-
-  <!-- Group products by category -->
+<xsl:stylesheet version="1.0"
+xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
   <xsl:template match="/products">
     <xsl:copy>
       <xsl:for-each-group select="product[quantity >= 10]" group-by="category">
