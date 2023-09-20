@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="./apple.xsl" type="text/xsl"?>
+<product>
+  <product_name>Apple</product_name>
+  <category>Fruit</category>
+  <price>10</price>
+  <quantity>100</quantity>
+</product>
+<product>
+  <product_name>Banana</product_name>
+  <category>Fruit</category>
+  <price>8</price>
+  <quantity>75</quantity>
+</product>
+<product>
+  <product_name>Orange</product_name>
+  <category>Fruit</category>
+  <price>6</price>
+  <quantity>120</quantity>
+</product>
+<product>
+  <product_name>Strawberries</product_name>
+  <category>Fruit</category>
+  <price>12</price>
+  <quantity>50</quantity>
+</product>
+<product>
+  <product_name>Grapes</product_name>
+  <category>Fruit</category>
+  <price>9</price>
+  <quantity>90</quantity>
+</product>
