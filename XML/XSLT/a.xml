@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person>
+  <user>
+    <fullName>Ocean Oak</fullName>
+    <Address>Ram Streen no.9</Address>
+    <post>Butler</post>
+    <salary>10000</salary>
+    <email>oceanoak999@gmail.com</email>
+  </user>
+</person>
