@@ -1,5 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<?xml-stylesheet type="text/xsl" href="new.xsl">
 <person>
+  <user>
+    <fullName>Ocean Oak</fullName>
+    <Address>Ram Streen no.9</Address>
+    <post>Butler</post>
+    <salary>10000</salary>
+    <email>oceanoak999@gmail.com</email>
+  </user>
+  <user>
+    <fullName>Ocean Oak</fullName>
+    <Address>Ram Streen no.9</Address>
+    <post>Butler</post>
+    <salary>10000</salary>
+    <email>oceanoak999@gmail.com</email>
+  </user>
+  <user>
+    <fullName>Ocean Oak</fullName>
+    <Address>Ram Streen no.9</Address>
+    <post>Butler</post>
+    <salary>10000</salary>
+    <email>oceanoak999@gmail.com</email>
+  </user>
   <user>
     <fullName>Ocean Oak</fullName>
     <Address>Ram Streen no.9</Address>
